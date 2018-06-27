@@ -17,3 +17,4 @@ release: clean
 	git commit -m "release $(TIME_RELEASE)" ;
 	git tag v$(TIME_RELEASE) ;
 	git push origin master ;
+	git push origin v$(TIME_RELEASE) ;
