@@ -1,0 +1,7 @@
+@import "../node_modules/flexboxgrid/dist/flexboxgrid.css";
+
+body {
+  background-color: black;
+  color: limegreen;
+  font-family: monospace;
+}
