@@ -9,6 +9,7 @@
     <contato v-if="sect[1]" />
     <o-que-fazemos v-if="sect[2]" />
     <quem-somos v-if="sect[3]" />
+    <button v-if="!sect[0]" @click="sect = [true,false,false,false]">Início</button>
   </div>
 </template>
 
